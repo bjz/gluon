@@ -432,9 +432,7 @@ fn span_integer() {
                });
 }
 
-// FIXME The span of string literals includes the spaces after them
 #[test]
-#[ignore]
 fn span_string_literal() {
     let _ = ::env_logger::init();
 
